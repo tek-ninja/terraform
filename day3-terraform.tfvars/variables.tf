@@ -8,11 +8,6 @@ variable "subnet_cidr" {
     default = ""
     description = "CIDR block for the subnet"
 }
-variable "subnet2_cidr" {
-    type = string
-    default = ""
-    description = "CIDR block for the subnet"
-}
 //names
 variable "vpc_name" {
     type = string
