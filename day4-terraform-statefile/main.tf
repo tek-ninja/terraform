@@ -19,7 +19,5 @@ resource "aws_instance" "cartify_instance" {
     Name = "${var.vpc_name}-instance"
   }
 }
-resource "aws_s3_bucket" "cartify_bucket" {
-  bucket = "my-cartify-bucket-surya-hello"
-}
+
 
