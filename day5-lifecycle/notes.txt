@@ -1,0 +1,7 @@
+Three life cycle rules
+
+prevent_destroy=true
+
+ignore changes
+
+create before destroy
